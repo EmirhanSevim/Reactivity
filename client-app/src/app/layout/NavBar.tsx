@@ -16,9 +16,9 @@ export default function NavBar({ openForm }: Props) {
             style={{ marginRight: '20px' }}
           />
         </Menu.Item>
-        <Menu.Item name='Activities' />
+        <Menu.Item name='Harmony Cloud' />
         <Menu.Item>
-          <Button onClick={openForm} positive content='Create Activity' />
+          <Button onClick={openForm} positive content='Activity Oluşturun' />
         </Menu.Item>
       </Container>
     </Menu>
